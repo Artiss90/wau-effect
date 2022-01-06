@@ -1,0 +1,11 @@
+.navigateList {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 80px;
+ padding: 10px 5px;
+ background-image: linear-gradient(
+    to top,
+    var(--colorMain), var(--color1), var(--color2)
+  );
+}
