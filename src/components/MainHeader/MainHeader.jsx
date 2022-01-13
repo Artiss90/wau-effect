@@ -3,7 +3,7 @@ import style from "./MainHeader.module.css"
 
 const MainHeader = () => {
 return (
-    <header>
+    <header className={style.header}>
         <nav>
             <ul className={style.navigateList}>
             <NavItem title="Cards spinning" url="/CardsSpinning"/>

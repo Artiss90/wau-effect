@@ -1,0 +1,52 @@
+.btn, .btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:hover::after {
+    -webkit-transform: scaleX(1.4) scaleY(1.6);
+            transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+  .btn:active, .btn:focus {
+    outline: none;
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .btnWhite {
+    background-color: #fff;
+    color: #777;
+  }
+  
+  .btnGrad {
+    background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#3f5efb));
+    background: linear-gradient(to right, #fc466b, #3f5efb);
+    color: #fff;
+  }
+  .btn.btnGrad:active, .btn.btnGrad:focus {
+    outline: none;
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+    -webkit-box-shadow: 0 5px 10px rgba(85, 197, 122, 0.9);
+            box-shadow: 0 5px 10px rgba(85, 197, 122, 0.9);
+  }
