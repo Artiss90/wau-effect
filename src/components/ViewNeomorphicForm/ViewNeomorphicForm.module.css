@@ -1,0 +1,56 @@
+.form {
+  padding: var(--ruler);
+  width: calc(var(--ruler) * 20);
+  margin: 0 auto;
+}
+
+.form div,
+.form p {
+  color: var(--color-shadow);
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.form button,
+.form input {
+  border: 0;
+  outline: 0;
+  font-size: var(--ruler);
+  border-radius: calc(var(--ruler) * 20);
+  padding: var(--ruler);
+  background-color: var(--color-bg);
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.form label {
+  display: block;
+  margin-bottom: calc(var(--ruler) * 1.5);
+  width: 100%;
+}
+
+.form input {
+  margin-right: calc(var(--ruler) / 2);
+  box-shadow: inset 2px 2px 5px var(--color-shadow), inset -5px -5px 10px #fff;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.form input:focus {
+  box-shadow: inset 1px 1px 2px var(--color-shadow), inset -1px -1px 2px #fff;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputGroup label {
+  margin: 0;
+  flex: 1;
+}
+
+.segment {
+  padding: calc(var(--ruler) * 2) 0;
+  text-align: center;
+}

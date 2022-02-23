@@ -11,5 +11,8 @@
 }
 
 .mainContainer.secondStyle {
-  background: lightgreen;
+  background-color: var(--color-bg);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.2px;
+  font-size: var(--ruler);
 }

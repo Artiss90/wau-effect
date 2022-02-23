@@ -1,9 +1,9 @@
 import HeaderContainer from './HeaderContainer/HeaderContainer';
 import Button from './Button/Button';
 import CartContainer from './CartContainer/CartContainer';
+import ViewWrapper from '../ViewWrapper/ViewWrapper';
 
 import style from './CartsSpinning.module.css';
-import ViewWrapper from '../ViewWrapper/ViewWrapper';
 
 const exampleCart = [
   {
