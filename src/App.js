@@ -1,18 +1,18 @@
 import { Route, Routes, useLocation } from 'react-router';
-import CardsSpinning from './components/CardsSpinning/CardsSpinning';
+import CartsSpinning from './components/CartsSpinning/CartsSpinning';
 import MainHeader from './components/MainHeader/MainHeader';
+import NeomorphicForm from './components/NeomorphicForm/NeomorphicForm';
 
 function App() {
-  let path = useLocation().pathname
-  console.log("🚀 ~ file: App.js ~ line 7 ~ App ~ url", path)
+  let path = useLocation().pathname;
   return (
     <div className="App">
-    <MainHeader/>
-    
-    <Routes>
-        <Route path="/CardsSpinning" element={<CardsSpinning/>} />
-        {/* <Route path="*" element={<CardsSpinning/>} /> */}
-    </Routes>
+      <MainHeader />
+
+      <Routes>
+        <Route path="/CartsSpinning" element={<CartsSpinning />} />
+        <Route path="/NeomorphicForm" element={<NeomorphicForm />} />
+      </Routes>
     </div>
   );
 }

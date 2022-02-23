@@ -1,0 +1,15 @@
+.mainContainer {
+  padding-top: 10vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff;
+  background: #000;
+}
+
+.mainContainer.secondStyle {
+  background: lightgreen;
+}

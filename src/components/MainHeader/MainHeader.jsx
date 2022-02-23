@@ -6,8 +6,8 @@ return (
     <header className={style.header}>
         <nav>
             <ul className={style.navigateList}>
-            <NavItem title="Cards spinning" url="/CardsSpinning"/>
-            <NavItem title="2" url="/2"/>
+            <NavItem title="Carts spinning" url="/CartsSpinning"/>
+            <NavItem title="Neomorphic Form" url="/NeomorphicForm"/>
             <NavItem title="3" url="/3"/>
             <NavItem title="4" url="/4"/>
             </ul>
